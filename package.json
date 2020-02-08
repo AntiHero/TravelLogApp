@@ -1,0 +1,45 @@
+{
+  "name": "travel-log-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "lint": "eslint server/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiHero/TravelLogApp.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "expresss",
+    "mongodb"
+  ],
+  "author": "A.Schemelev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntiHero/TravelLogApp/issues"
+  },
+  "homepage": "https://github.com/AntiHero/TravelLogApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
